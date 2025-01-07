@@ -1,0 +1,45 @@
+
+/* 3. Apply rules to the whole page */
+* {
+    margin: 50px;
+    background-color: #e8eae8;
+    color: #5d665b;
+}
+
+/* 4. Set <body> margins */
+body {
+    margin: 70px 50px 70px 120px;
+}
+
+/* 5. Set font families */
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* 6. Set font size and line height */
+body {
+    font-size: small;
+    line-height: 1.8;
+}
+
+/* 7. Style first <h2> and first <p> */
+h2:first-of-type {
+    font-size: 75%;
+}
+p:first-of-type {
+    font-size: 70%;
+}
+
+/* Indent the second paragraph */
+p:nth-of-type(2) {
+    text-indent: 3em;
+}
+
+/* 8. Style <h1> and <h2> */
+h1 {
+    color: #fffdd;
+}
+h2 {
+    color: #966b72;
+    font-family: Georgia, serif;
+}

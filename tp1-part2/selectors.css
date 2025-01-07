@@ -1,0 +1,97 @@
+/* 1. Color all <h2> headings purple */
+h2 {
+    color: purple;
+}
+
+/* 2. Set the <body> background color */
+body {
+    background-color: #bdc3c7;
+}
+
+/* 3. Set the <h1> color */
+h1 {
+    color: #9b59b6;
+}
+
+/* 4. Color all <h2> headings orange */
+h2 {
+    color: orange; /* Overrides the earlier purple color */
+}
+
+/* 5. Color all <li> elements blue */
+li {
+    color: blue;
+}
+
+/* 6. Set paragraph backgrounds to yellow */
+p {
+    background-color: yellow;
+}
+
+/* 7. Add a 3px red border to all inputs */
+input {
+    border: 3px solid red;
+}
+
+/* 8. Add a pink background to elements with the class 'hello' */
+.hello {
+    background-color: pink;
+}
+
+/* 9. Add a 2px blue border to the element with id 'special' */
+#special {
+    border: 2px solid blue;
+}
+
+/* 10. Set font size for all <p> elements inside <div> */
+div p {
+    font-size: 25px;
+}
+
+/* 11. Set background for input[type="text"] */
+input[type="text"] {
+    background-color: gray;
+}
+
+/* 12. Set pink background for 2 <p> elements inside the 3rd <div> */
+div:nth-of-type(3) p {
+    background-color: pink;
+}
+
+/* 13. Add a 5px white border to the 2nd <p> inside the 3rd <div> */
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 5px solid white;
+}
+
+/* 14. Style <em> in the 3rd <div> */
+div:nth-of-type(3) em {
+    color: white;
+    font-size: 20px;
+}
+
+/* 15. Add left margin to checked checkboxes */
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+
+/* 16. Uppercase all <label> text */
+label {
+    text-transform: uppercase;
+}
+
+/* 17. Style the first letter of #special */
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* 18. Change <h1> color on hover */
+h1:hover {
+    color: red;
+}
+
+/* 19. Change visited <a> link color */
+a:visited {
+    color: gray;
+}
+
